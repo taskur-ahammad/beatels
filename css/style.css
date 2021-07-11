@@ -195,6 +195,9 @@ header .icon ul li a:hover{
     background-color: #f1f1f1;
     padding: 50px 17px 5px 17px;
 }
+.ser_con:hover{
+    box-shadow: 3px 4px 20px 4px #555555;
+}
 .ser_con h4{
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -308,6 +311,7 @@ header .icon ul li a:hover{
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 10px;
+    transition: all linear 0.3s;
 }
 .team_con p{
     font-size: 14px;
@@ -331,12 +335,14 @@ header .icon ul li a:hover{
     justify-content: center;
     align-items: center;
     opacity: 0;
+    transition: all linear 0.5s;
 }
 #team .team_img:hover .team_overlay{
     opacity: 1;
+    transition: all linear 0.5s;
 }
 #team .team_img:hover{
-    box-shadow: 10px 10px 30px #555555;
+    box-shadow: -5px -4px 30px #555555;
 }
 .team_overlay ul{
     padding: 0px;
@@ -356,11 +362,176 @@ header .icon ul li a:hover{
     margin: 15px 0px;
     font-size: 16px;
 }
-.team_img:hover .team_con h4{
+.team_main:hover h4{
     color: #5bc5f4;
+    transition: all linear 0.3s;
 }
 .team_overlay ul li a:hover{
     background-color: #5bc5f4;
     border-color: #5bc5f4;
 }
 /* team part end */
+
+/* testimonial part start */
+#testimonial h2{
+    margin-top: 60px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+#testimonial .head{
+    position: relative;
+}
+#testimonial .head img{
+    height: 2px;
+    width: 7%;
+    position: absolute;
+    top: 90px;
+    left: 511px;
+}
+.test_img{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.test_con{
+    text-align: center;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 22px 20px 5px;
+    position: relative;
+    margin-bottom: 60px;
+     /* box-shadow: 5px 5px 5px #555555; */
+}
+.test_con h4{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.test_con h6{
+    color: #555555;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.test_con p{
+    color: #555555;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.test_con ul{
+    display: inline-flex;
+    padding: 0;
+}
+.test_con:hover{
+    box-shadow: 3px 4px 20px 4px #555555;
+}
+.piramid{
+    height: 50px;
+    width: 50px;
+    background-color: #f1f1f1;
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 45%;
+    top: -20px;
+    z-index: -1;
+}
+/* testimonial part end */
+
+/* footer part start */
+#footer{
+    background-color: black;
+    color: #fff;
+    padding: 25px 0;
+}
+#footer a{
+    text-decoration: none;
+}
+.footer_con_head h4{ 
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.foot_logo_part p{
+    text-align: left;
+    font-size: 14px;;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 23px;
+}
+.foot_icon a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #5bc5f4;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+.foot_icon a:last-child{
+    margin-top: 18px;
+}
+.foot_icon a:nth-child(2){
+    margin-top: 18px;
+}
+.foot_icon a:hover{
+    color: #fff;
+}
+.f_menu ul{
+    padding: 0px;
+}
+.f_menu ul li a{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 40px;
+}
+.f_menu ul li a:hover{
+    color:#5bc5f4;
+}
+.f_phone p{
+    line-height: 20px;
+    text-align: left;
+    font-size: 14px;;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.f_phone p:nth-child(2){
+    margin-top: 18px;
+}
+.f_phone p:last-child{
+    margin-top: 20px;
+}
+.copyright{
+    background-color: #555555;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.copyright a{
+    text-decoration: none;
+    color: #5bc5f4;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.copyright a:hover{
+    color: #5bc5f4;
+}
+/* footer part end */
