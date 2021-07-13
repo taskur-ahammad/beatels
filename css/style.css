@@ -65,7 +65,7 @@ header .icon ul li a:hover{
     background-color: rgb(42, 44, 56, 0.62);
     padding: 85px 0px;
 }
-.banner h4,h1,p{
+.banner .ban_con{
     text-align: right;
     color: white;
 }
@@ -86,26 +86,24 @@ header .icon ul li a:hover{
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
 }
-.banner button{
-    float: right;
+.banner .ban_con a{
     margin-left: 10px;
     background: transparent;
-    outline: none;
     padding: 9px 20px;
     border-style: solid;
     border-color: white;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    transition: all linear .3s;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
 }
-.banner button:hover{
+.banner a:hover{
     background-color: #0872b9;
     border-color: #0872b9;
-}
-.banner button a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 14px;
+    color: #fff;
+    transition: all linear .3s;
 }
 /* banner part end */
 
@@ -476,10 +474,6 @@ header .icon ul li a:hover{
     text-align: center;
     border-radius: 50%;
     padding: 10px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .foot_icon a:last-child{
     margin-top: 18px;
@@ -519,6 +513,7 @@ header .icon ul li a:hover{
 }
 .copyright{
     background-color: #555555;
+    color: #fff;
     height: 50px;
     width: 100%;
     display: flex;

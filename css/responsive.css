@@ -1,0 +1,491 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width:320px) and (max-width: 575px) { 
+    *{
+        padding: 0px;
+    }
+    #team .head img{
+        left: 114px;
+    }
+    #testimonial .head img{
+        left: 114px;
+    }
+    #portfolio .head img{
+        left: 100px;
+    }
+    #service .head img{
+        left: 100px;
+    }
+    /* header part start */
+
+
+    header{
+        position: relative;
+    }
+    header .welcome p{
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .icon{
+        display: none;
+    }
+
+
+    /* header part end */
+
+    /* navigation bar start */
+
+
+    .navbar-nav{
+        text-align: right;
+        margin-top: 10px;   
+    }
+    .navbar-nav .nav-item{
+        border-top: 1px solid #555055;
+    }
+    .navbar-nav .nav-item:last-child{
+        border-bottom: 2px solid #555055;
+    }
+    
+    
+    /* navigation bar end */
+
+    /* banner part start  */
+
+
+    .banner .ban_con{
+        text-align: center;
+        color: white;
+    }
+    .banner h1{
+        font-size: 36px;
+    }
+    /* banner part end */
+
+
+    /* About Part start */
+
+
+    #about .head img {
+        left: 113px;
+        width: 18%;
+    }
+    #none{
+        display: none;
+    }
+    #about p {
+        font-size: 12px;
+    }
+
+
+    /* About Part end  */
+
+
+    /* services part start */
+
+
+    #service .head img {
+        left: 94px;
+        width: 18%;
+    }
+    #service .icon_main {
+        left: 37%;
+    }
+    #service #ser_main {
+        margin-bottom: 30px;
+    }
+
+
+    /* services part end  */
+    
+    
+    /* portfolio part start */
+
+
+    #portfolio .head img {
+        left: 87px;
+        width: 18%;
+    }
+    .big_img {
+        margin-bottom: 20px;
+    }
+
+
+    /* portfolio part end  */
+    
+    
+    /* team part start */
+
+
+    #team .head img{
+        left: 114px;
+        width: 18%;
+    }
+
+
+    /* team part end  */
+
+    
+    /* testimonial part start */
+
+
+    #testimonial .head img{
+        left: 102px;
+        width: 18%;
+    }
+
+
+    /* testimonial part end  */
+
+    
+    /* footer part start */
+
+
+    footer{
+        text-align: center;
+    }
+    .foot_icon{
+        margin-left: 50%;
+    }
+
+
+    /* footer part end  */
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and  (max-width: 767px) { 
+    *{
+        padding: 0px;
+    }
+    #team .head img{
+        left: 114px;
+    }
+    #testimonial .head img{
+        left: 114px;
+    }
+    #portfolio .head img{
+        left: 100px;
+    }
+    #service .head img{
+        left: 100px;
+    }
+    
+    /* navigation bar start */
+
+
+    #navbarNav{
+        text-align: right;
+        margin-top: 10px;
+        background-size: 50px;   
+    }
+    .navbar-nav .nav-item{
+        border-top: 1px solid #555055;
+    }
+    .navbar-nav .nav-item:last-child{
+        border-bottom: 2px solid #555055;
+    }
+    
+    
+    /* navigation bar end */
+
+
+    /* banner part start */
+
+
+    .ban_con h1{
+        font-size: 30px;
+    }
+    .ban_con p{
+        margin-left: 115px;
+    }
+
+
+    /* banner part end */
+
+
+    /* about part start */
+
+
+    #about .head img {
+        width: 10%;
+        left: 224px;
+    }
+    #none{
+        display: none;
+    }
+    #about p {
+        padding-top: 0px;
+    }
+
+
+    /* about part end */
+    
+
+    /* service part start */
+
+
+    #service .head img {
+        width: 13%;
+        left: 205px;
+    }
+    #service .icon_main {
+        left: 233px;
+    }
+    #service #ser_main {
+        margin-bottom: 30px;
+    }
+
+
+    /* service part end */ 
+
+    
+    /* portfolio part start */
+
+
+    #portfolio .head img {
+        left: 197px;
+        width: 18%;
+    }
+    .big_img {
+        margin-bottom: 20px;
+    }
+
+
+    /* portfolio part end  */
+
+    
+    /* team part start */
+
+
+    #team .head img{
+        left: 224px;
+        width: 10%;
+    }
+
+
+    /* team part end  */
+    
+    
+    /* testimonial part start */
+
+
+    #testimonial .head img {
+        left: 210px;
+        width: 13%;
+    }
+
+
+    /* testimonial part end  */
+    
+    
+    /* footer part start */
+
+
+    footer{
+        text-align: center;
+    }
+    .foot_icon{
+        margin-left: 80%;
+    }
+    .col-4{
+        padding-right: 25px;
+    }
+    
+
+    /* footer part end  */
+
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and  (max-width: 991px) { 
+    *{
+        padding: 0px;
+    }
+    #team .head img{
+        left: 114px;
+    }
+    #testimonial .head img{
+        left: 114px;
+    }
+    #portfolio .head img{
+        left: 100px;
+    }
+    #service .head img{
+        left: 100px;
+    }
+    
+    /* navigation bar start */
+
+
+    #navbarNav{
+        text-align: right;
+        margin-top: 10px;
+        background-size: 50px;   
+    }
+    .navbar-nav .nav-item{
+        border-top: 1px solid #555055;
+    }
+    .navbar-nav .nav-item:last-child{
+        border-bottom: 2px solid #555055;
+    }
+    
+    
+    /* navigation bar end */
+
+    
+    /* banner part start */
+
+
+    .ban_con h1{
+        font-size: 30px;
+    }
+    
+
+
+    /* banner part end */
+    
+
+    /* About Part start */
+
+
+    #about .head img {
+        left: 313px;
+        width: 9%;
+    }
+    #none{
+        display: none;
+    }
+    #about p {
+        font-size: 12px;
+    }
+
+
+    /* About Part end  */
+    
+
+    /* services part start */
+
+
+    #service .head img {
+        left: 294px;
+        width: 11%;
+    }
+    #service .icon_main {
+        left: 33%;
+    }
+    #service #ser_main {
+        margin-bottom: 30px;
+    }
+
+
+    /* services part end  */
+        
+    
+    /* portfolio part start */
+
+
+    #portfolio .head img {
+        left: 286px;
+        width: 11%;
+    }
+
+
+    /* portfolio part end  */
+        
+    
+    /* team part start */
+
+
+    #team .head img{
+        left: 314px;
+        width: 9%;
+    }
+
+
+    /* team part end  */
+
+    
+    /* testimonial part start */
+
+
+    #testimonial .head img{
+        left: 300px;
+        width: 9%;
+    }
+    
+
+    /* testimonial part end  */
+       
+    
+    /* footer part start */
+
+
+    .width{
+        width: 50%;
+    }
+    
+
+    /* footer part end  */
+
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width:992px) and  (max-width: 1199px) { 
+    
+    *{
+        padding: 0px;
+    }
+    #about .head img{
+        left: 433px;
+    }
+    #about p:first-child{
+        padding-top: 0px;
+    }
+    #team .head img{
+        left: 433px;
+    }
+    #service .head img{
+        left: 415px;
+    }
+    #service .icon_main {
+        left: 115px;
+    }
+    #portfolio .head img{
+        left: 407px;
+    }
+    #testimonial .head img{
+        left: 421px;
+    }
+    
+
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (min-width:1200px) and (max-width: 1399px) {  }
+/*// XX-Large devices (larger desktops)*/
+@media  (min-width:  1400px)  { 
+
+    *{
+        padding: 0px;
+    }
+    #about .head img{
+        left: 613px;
+    }
+    #service .head img{
+        left: 594px;
+    }
+    #service .icon_main {
+        left: 173px;
+    }
+    #portfolio .head img{
+        left: 586px;
+    }
+    #team .head img{
+        left: 614px;
+    }
+    #testimonial .head img{
+        left: 600px;
+    }
+
+ }

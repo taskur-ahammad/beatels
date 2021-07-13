@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Beatels</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link id="bootstrap" rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -34,12 +35,12 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-12 col-sm-4">
                     <div class="welcome">
                         <p>Welcome to Beatels</p>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 col-sm-8">
                     <div class="icon">
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -96,13 +97,17 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="offset-md-6 col-md-6">
+                    <div class="offset-md-6 col-md-6 col-12 ">
+                        <div class="ban_con">
                         <h4>Hi! We Are</h4>
                         <h1>Creative Designer</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-                        <br><button><a href="#">Contact</a></button>
-                        <button><a href="#">Hire us</a></button>
+                        <br>
+                        <a href="#">Hire us</a>
+                        <a href="#">Contact</a>
+                        
+                        </div>
                     </div>
                 </div>
             </div>
@@ -118,15 +123,15 @@
                     <h2>About us</h2>
                     <img src="images/underline.png" class="img-fluid w-20" alt="">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 col-sm-6">
                     <img src="images/about.png" class="img-fluid w-100" alt="">
                 </div>
 
-                <div class="col-md-7">
+                <div class="col-md-7 col-12 col-sm-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                         ut aliquip ex ea commodo consequat.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    <p id="none">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officiaeserunt
                         mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantium.</p>
@@ -196,7 +201,7 @@
                     <h2>Our portfolio</h2>
                     <img src="images/underline.png" class="img-fluid w-20" alt="">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="small_img">
                         <img src="images/port1.png" class="img-fluid w-100" alt="">
                         <div class="port_overlay">
@@ -210,7 +215,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="small_img">
                         <img src="images/port3.jpg" class="img-fluid w-100" alt="">
                         <div class="port_overlay">
@@ -224,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="small_img">
                         <img src="images/port5.jpg" class="img-fluid w-100" alt="">
                         <div class="port_overlay">
@@ -238,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="small_img">
                         <img src="images/port7.jpg" class="img-fluid w-100" alt="">
                         <div class="port_overlay">
@@ -266,7 +271,7 @@
                     <h2>Our Team</h2>
                     <img src="images/underline.png" class="img-fluid w-20" alt="">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team_main">
                         <div class="team_img">
                             <img src="images/team1.jpg" class="img-fluid w-100" alt="">
@@ -285,7 +290,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team_main">
                         <div class="team_img">
                             <img src="images/team2.jpg" class="img-fluid w-100" alt="">
@@ -304,7 +309,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team_main">
                         <div class="team_img">
                             <img src="images/team3.jpg" class="img-fluid w-100" alt="">
@@ -323,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team_main">
                         <div class="team_img">
                             <img src="images/team4.jpg" class="img-fluid w-100" alt="">
@@ -355,7 +360,7 @@
                     <h2>Testimonial</h2>
                     <img src="images/underline.png" class="img-fluid w-20" alt="">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="test_img">
                         <img src="images/test_1.png" class="img-fluid" alt="">
                     </div>
@@ -375,7 +380,7 @@
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="test_img">
                         <img src="images/test_2.png" class="img-fluid" alt="">
                     </div>
@@ -404,19 +409,19 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 width">
                     <div class="foot_logo_part">
                     <div class="foot_logo">
                         <img src="images/foot_logo.png" alt="">
                     </div>
                     <div class="foot_con">
                         <p>Lorem ipsum dolor sit amet, conser adipisicing elit, sed do eiumod apor incididunt ut labore et dolore  magna aliqua.</p>
-                        <p>Lorem ipsum dolor sit amet, conser adipisicing elit.</p>
+                        <p id="none">Lorem ipsum dolor sit amet, conser adipisicing elit.</p>
                     </div>
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3 width">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="footer_con_head">
@@ -425,14 +430,14 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-4 col-sm-5">
                             <div class="foot_icon">
                                 <a href="#"><i class="fas fa-phone-alt"></i></a>
                                 <a href="#"><i class="fas fa-envelope"></i></a>
                                 <a href="#"><i class="fas fa-globe"></i></a>
                             </div>
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-md-10 col-8 col-sm-7">
                             <div class="f_phone">
                                 <p>+334 1234 5987 <br>+334 1234 5987</p>
                                 <p>beatlsinfo@gmail.com <br>informationbeatls@mail.com</p>
@@ -443,7 +448,7 @@
                 </div>
 
 
-                <div class="col-md-2">
+                <div class="col-md-2 width">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="footer_con_head">
@@ -452,18 +457,17 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="f_menu">
+                        <div class="col-md-6 col-6">
+                            <div class="f_menu sm_margin">
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">portfolio</a></li>
                                 <li><a href="#">Our Team</a></li>
-                                <li><a href="#">Blog</a></li>
                             </ul>
                         </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-6 ">
                             <div class="f_menu">
                             <ul>
                                 <li><a href="#">Pricing</a></li>
@@ -475,30 +479,30 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 width">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="footer_con_head">
                                 <h4>Flickr Photos</h4>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-4">
                             <div class="foot_img">
                             <img src="images/foot_img1.jpg" class="img-fluid w-100" alt=""><br><br>
                             <img src="images/foot_img2.jpg" class="img-fluid w-100" alt=""><br><br>
                         </div>
                         </div>
                         
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-4">
                             <div class="foot_img">
                             <img src="images/foot_img3.jpg" class="img-fluid w-100" alt=""><br><br>
                             <img src="images/foot_img4.jpg" class="img-fluid w-100" alt=""><br><br>
                         </div>
                         </div>
                         
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-4">
                             <div class="foot_img">
                             <img src="images/foot_img5.jpg" class="img-fluid w-100" alt=""><br><br>
                             <img src="images/foot_img6.jpg" class="img-fluid w-100" alt=""><br><br>
